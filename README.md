@@ -9,11 +9,11 @@ Inside Dockerfile set environment variables for:
 
 **TG_CLIENT_ID** - telegram chat id to send data to.
 
-Run command to build docker image:
+Run command to build docker containter:
 ```
 docker build --network=host -t api_to_bot_image .
 ```
-Then run docker image after:
+Then run docker container after:
 ```
 docker run api_to_bot_image
 ```
