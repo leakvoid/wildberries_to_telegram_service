@@ -2,8 +2,11 @@
 Application requests data from Wildberries API (orders and sales), generates excel file and sends them to the telegram user via bot every 30 minutes.
 
 Inside Dockerfile set environment variables for:
+
 **WB_SELLER_TOKEN** - wildberries seller API token.
+
 **TG_TOKEN** - token for your telegram bot.
+
 **TG_CLIENT_ID** - telegram chat id to send data to.
 
 Run command to build docker image:
